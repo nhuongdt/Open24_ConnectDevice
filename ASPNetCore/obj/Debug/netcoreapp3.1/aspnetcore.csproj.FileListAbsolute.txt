@@ -1,0 +1,5 @@
+D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.csprojAssemblyReference.cache
+D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.AssemblyInfoInputs.cache
+D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.AssemblyInfo.cs
+D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.csproj.CoreCompileInputs.cache
+D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.MvcApplicationPartsAssemblyInfo.cache
