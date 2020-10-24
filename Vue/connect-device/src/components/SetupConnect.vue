@@ -51,7 +51,7 @@
 </template>
 
 <script>
-  import api from '@/FoodRecordsApiService';
+  import api from '@/axiosApi';
 
   export default {
     data() {

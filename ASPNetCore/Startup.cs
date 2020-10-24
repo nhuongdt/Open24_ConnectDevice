@@ -28,7 +28,8 @@ namespace aspnetcore
         {
             services.AddControllers();
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
+            services.AddDbContext<AspNetCore.ApplicationDbContext>(options => options.UseSqlServer(connectionString));
+             services.AddMvc(op => op.EnableEndpointRouting = false);
             services.AddCors(options =>
             {
             options.AddPolicy("VueCorsPolicy", builder =>
@@ -43,7 +44,7 @@ namespace aspnetcore
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline. IHostingEnvironment env
-        public void Configure(IApplicationBuilder app, IHostingEnvironment  env, ApplicationDbContext dbContext)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment  env, AspNetCore.ApplicationDbContext dbContext)
         {
             if (env.IsDevelopment())
             {

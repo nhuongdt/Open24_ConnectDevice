@@ -2,26 +2,24 @@ import Vue from 'vue'
 import axios from 'axios'
 
 const client = axios.create({
-  baseURL: 'http://localhost:5000/api/FoodRecords',
+  baseURL: 'http://localhost:5000/api/SetupConnect',
   json: true
 })
 
 export default {
   async execute(method, resource, data) {
-    const accessToken = await Vue.prototype.$auth.getAccessToken()
+   
     return client({
       method,
       url: resource,
       data,
-      headers: {
-        Authorization: `Bearer ${accessToken}`
-      }
+     
     }).then(req => {
       return req.data
     })
   },
   getAll() {
-    return this.execute('get', '/')
+    return this.execute('getAll', '/')
   },
   create(data) {
     return this.execute('post', '/', data)
