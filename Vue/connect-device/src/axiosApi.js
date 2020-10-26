@@ -1,4 +1,3 @@
-import Vue from 'vue'
 import axios from 'axios'
 
 const client = axios.create({
@@ -7,16 +6,14 @@ const client = axios.create({
 })
 
 export default {
-  async execute(method, resource, data) {
-   
+  async execute(method, resource, data) {  
     return client({
       method,
       url: resource,
-      data,
-     
+      data,     
     }).then(req => {
       return req.data
-    })
+    }).catch(err=>{console.log('err ', err)})
   },
   getAll() {
     return this.execute('getAll', '/')
