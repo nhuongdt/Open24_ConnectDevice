@@ -1,8 +1,3 @@
-D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.csprojAssemblyReference.cache
-D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.AssemblyInfoInputs.cache
-D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.AssemblyInfo.cs
-D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.csproj.CoreCompileInputs.cache
-D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.MvcApplicationPartsAssemblyInfo.cache
 D:\SSOFT\Open24_ConnectDevice\aspnetcore\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\SSOFT\Open24_ConnectDevice\aspnetcore\bin\Debug\netcoreapp3.1\appsettings.json
 D:\SSOFT\Open24_ConnectDevice\aspnetcore\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -51,6 +46,11 @@ D:\SSOFT\Open24_ConnectDevice\aspnetcore\bin\Debug\netcoreapp3.1\runtimes\win-x8
 D:\SSOFT\Open24_ConnectDevice\aspnetcore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\SSOFT\Open24_ConnectDevice\aspnetcore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\SSOFT\Open24_ConnectDevice\aspnetcore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.csprojAssemblyReference.cache
+D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.AssemblyInfoInputs.cache
+D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.AssemblyInfo.cs
+D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.csproj.CoreCompileInputs.cache
+D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.MvcApplicationPartsAssemblyInfo.cache
 D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.RazorTargetAssemblyInfo.cache
 D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\aspnetcore.csproj.CopyComplete
 D:\SSOFT\Open24_ConnectDevice\aspnetcore\obj\Debug\netcoreapp3.1\staticwebassets\aspnetcore.StaticWebAssets.Manifest.cache

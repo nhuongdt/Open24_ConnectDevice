@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -18,12 +20,14 @@ namespace AspNetCore.Controllers
 
     // GET api/DM_NhomHangHoa
     [HttpGet]
-    public async Task<ActionResult<List<DM_NhomHangHoa>>> GetAll()
+    public async Task<ActionResult<List<DM_NhomHangHoa>>> Get()
     {
-      return await _dbContext.DM_NhomHangHoa.ToListAsync();
+      return await _dbContext.DM_NhomHangHoa.Select(x=> new DM_NhomHangHoa{ID= x.ID, TenNhomHangHoa= x.TenNhomHangHoa})
+      .ToListAsync();
+      // return await _dbContext.DM_NhomHangHoa.ToListAsync();
     }
-
-    // GET api/DM_NhomHangHoa/5
+ 
+    // GET api/DM_NhomHangHoa/
     [HttpGet("{id}")]
     public async Task<ActionResult<DM_NhomHangHoa>> Get(string id)
     {

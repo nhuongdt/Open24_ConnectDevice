@@ -69,7 +69,7 @@
         this.loading = true
 
         try {
-          this.records = await api.getAll()
+          await api.getAll()
         } finally {
           this.loading = false
         }

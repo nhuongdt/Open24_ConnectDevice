@@ -11,12 +11,15 @@ export default {
       method,
       url: resource,
       data,     
+      // headers:{
+      //   "Content-Type": "application/json"
+      // }
     }).then(req => {
       return req.data
     }).catch(err=>{console.log('err ', err)})
   },
-  getAll() {
-    return this.execute('getAll', '/')
+  getAll() {   
+    return this.execute('get', '/')
   },
   create(data) {
     return this.execute('post', '/', data)
