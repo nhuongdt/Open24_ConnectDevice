@@ -18,7 +18,7 @@ namespace AspNetCore.Controllers
       _dbContext = dbContext;
     }
 
-    // GET api/DM_NhomHangHoa
+    // GET api/SetupConnect
     [HttpGet]
     public async Task<ActionResult<List<DM_NhomHangHoa>>> Get()
     {
@@ -27,9 +27,9 @@ namespace AspNetCore.Controllers
       // return await _dbContext.DM_NhomHangHoa.ToListAsync();
     }
  
-    // GET api/DM_NhomHangHoa/
+    // GET api/SetupConnect/id
     [HttpGet("{id}")]
-    public async Task<ActionResult<DM_NhomHangHoa>> Get(string id)
+    public async Task<ActionResult<DM_NhomHangHoa>> Get(Guid id)
     {
       return await _dbContext.DM_NhomHangHoa.FindAsync(id);
     }   
